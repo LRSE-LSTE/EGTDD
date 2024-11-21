@@ -8,19 +8,15 @@ body {
 }
 
 header {
-    text-align: left;
     background: #005a8d;
     color: white;
     padding: 1rem 0;
 }
 
-header h1 {
+header h1, header p {
     margin: 0;
-    font-size: 2rem;
-}
-
-header p {
-    margin: 0.5rem 0 0;
+    text-align: left;
+    padding: 0 1rem;
 }
 
 main {
@@ -35,6 +31,12 @@ section {
 
 h2 {
     color: #005a8d;
+    border-bottom: 2px solid #005a8d;
+    padding-bottom: 0.5rem;
+}
+
+p, ul {
+    text-align: left;
 }
 
 ul {
@@ -48,7 +50,7 @@ ul li {
 
 footer {
     text-align: left;
-    padding: 1rem 0;
+    padding: 1rem;
     background: #333;
     color: white;
 }
