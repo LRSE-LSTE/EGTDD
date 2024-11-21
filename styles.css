@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    text-align: center;
+    text-align: left;
     background: #005a8d;
     color: white;
     padding: 1rem 0;
@@ -47,7 +47,7 @@ ul li {
 }
 
 footer {
-    text-align: center;
+    text-align: left;
     padding: 1rem 0;
     background: #333;
     color: white;
