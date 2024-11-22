@@ -22,7 +22,8 @@ header h1, header p {
 main {
     padding: 1rem;
     max-width: 800px;
-    margin: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 section {
